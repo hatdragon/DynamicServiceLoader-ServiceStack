@@ -93,5 +93,14 @@ Once it has the list of assemblies matching this pattern, it will attempt to fin
 ```
 
 
+After you have all of the plumbing in place, just add the following to the global.asax.cs 
+```
+  protected void Application_Start(object sender, EventArgs e)
+  {
+      //register all of our available services
+      new MyAppHostBase().Init();
+  }
+```
+
 That's pretty much it.  Take a look at the TestService classes for examples of how to make this work. 
 
