@@ -7,7 +7,7 @@ Using
 <a href="http://msdn.microsoft.com/en-us/library/dd460648(v=vs.110).aspx">Managed Extensibility Framework (MEF)</a>,
 I created a plugin system for use with the <a href="https://github.com/ServiceStackV3/ServiceStackV3">ServiceStack</a>    model.
 
-Basically, we'll be creating an assebmly per service.  This assembly, properly decorated, will be able to drop into the bin directory of your service and picked up, ready to go.
+Basically, we'll be creating an assembly per service.  This assembly, properly decorated, will be able to drop into the bin directory of your service and picked up, ready to go.
 
 So, assuming that you already have ServiceStack up and running, you may have to make a few modifications to get into the same type of format, but nothing should be too difficult to follow.
 
